@@ -10,5 +10,5 @@ A function that takes 2 numbers as input. If either of the numbers is 65, OR if 
 
 
 def function(a,b):
-	return (a == 65 or b == 65 or (a + b) == 65)
-	
+    return (a == 65 or b == 65 or (a + b) == 65)
+

@@ -10,4 +10,4 @@ A function that takes 2 numbers as input. If either of the numbers is 3 AND the 
 
 
 def function(a,b):
-	return 'True' if( (a or b == 3) and ('3' in list(str(a+b))) ) else 'False'
+    return True if( (a or b == 3) and ('3' in list(str(a+b))) ) else False

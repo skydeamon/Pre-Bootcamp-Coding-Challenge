@@ -11,6 +11,6 @@ A function that takes in three numbers. These numbers represent the lengths of t
 import math
 
 def function(a,b,c):
-	theta = math.acos((a**2 + b**2 - c**2)/a*b)
-	area = (1/2) *a*b*math.sin(theta)
-	return area
+    theta = math.acos((a**2 + b**2 - c**2)/a*b)
+    area = (1/2) *a*b*math.sin(theta)
+    return area

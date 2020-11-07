@@ -10,12 +10,12 @@ A function that takes in three numbers and returns the maximum number.
 
 import math
 
-def Maximum(a,b,c):
-	maximum = 0
-	if(a>b and b>c):
-		maximum = a
-	elif(b>c and c>a):
-		maximum= b
-	else:
-		maximum = c
-	return maximum
+def maximum(a,b,c):
+    maxim = 0
+    if(a>b and b>c):
+        maxim = a
+    elif(b>c and c>a):
+        maxim= b
+    else:
+        maxim = c
+    return maxim
